@@ -12,7 +12,7 @@ def can_be_instantiated_and_then_saved
 end
 
 def can_be_created_with_a_hash_of_attributes
-  # Initialize movie and then and save it
+  # Initialize movie and then save it
   attributes = {
       title: "The Sting",
       release_date: 1973,
@@ -20,7 +20,7 @@ def can_be_created_with_a_hash_of_attributes
       lead: "Paul Newman",
       in_theaters: false
   }
-  movie = _
+  movie = Movie.new
 end
 
 def can_be_created_in_a_block(args = __)
